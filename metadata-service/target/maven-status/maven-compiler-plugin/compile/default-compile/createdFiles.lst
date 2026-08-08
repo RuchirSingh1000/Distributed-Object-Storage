@@ -1,5 +1,9 @@
+com\distributedstorage\metadata\model\FileMetadata.class
+com\distributedstorage\metadata\repository\ChunkMetadataRepository.class
+com\distributedstorage\metadata\model\ChunkMetadata.class
 com\distributedstorage\metadata\controller\FileMetadataController.class
 com\distributedstorage\metadata\MetadataServiceApplication.class
-com\distributedstorage\metadata\model\FileMetadata.class
+com\distributedstorage\metadata\service\ChunkMetadataService.class
+com\distributedstorage\metadata\controller\ChunkMetadataController.class
 com\distributedstorage\metadata\repository\FileMetadataRepository.class
 com\distributedstorage\metadata\service\FileMetadataService.class

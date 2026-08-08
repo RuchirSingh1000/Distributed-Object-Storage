@@ -23,7 +23,7 @@ public class FileMetadataService {
         metadata.setFileName(fileName);
         metadata.setFileSize(fileSize);
         metadata.setContentType(contentType);
-        metadata.setChecksum(checksum);
+        metadata.setOverallChecksum(checksum);
         metadata.setUploadTimestamp(Instant.now());
         metadata.setStatus("UPLOADED");
         return fileMetadataRepository.save(metadata);

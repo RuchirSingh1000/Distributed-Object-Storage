@@ -15,7 +15,9 @@ public class FileChunk {
     private String fileId;
     private int chunkIndex;
     private long size;
-    private String checksum;
+    private String checksum; // SHA-256 for deduplication
     private String storageNodeId;
     private long createdAt;
+    private boolean isDuplicate; // Flag for deduplication
+    private String originalChunkId; // Points to original chunk if duplicate
 }

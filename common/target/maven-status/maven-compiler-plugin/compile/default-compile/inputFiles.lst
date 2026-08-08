@@ -1,2 +1,4 @@
 D:\claude-code\Distributed-Object-Storage\common\src\main\java\com\distributedstorage\common\model\StorageNode.java
+D:\claude-code\Distributed-Object-Storage\common\src\main\java\com\distributedstorage\common\utils\StorageUtils.java
+D:\claude-code\Distributed-Object-Storage\common\src\main\java\com\distributedstorage\common\service\LeaderElectionService.java
 D:\claude-code\Distributed-Object-Storage\common\src\main\java\com\distributedstorage\common\model\FileChunk.java

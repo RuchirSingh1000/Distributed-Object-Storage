@@ -37,7 +37,7 @@ public class FileMetadata {
     private Instant uploadTimestamp;
 
     @Column(name = "checksum")
-    private String checksum;
+    private String overallChecksum; // SHA-256 of entire file
 
     @ElementCollection
     @CollectionTable(name = "file_chunks", joinColumns = @JoinColumn(name = "metadata_id"))
@@ -46,4 +46,14 @@ public class FileMetadata {
 
     @Column(name = "status")
     private String status; // UPLOADED, PROCESSING, AVAILABLE, DELETED
+
+    // New fields for chunking and deduplication
+    @Column(name = "chunk_size")
+    private Integer chunkSize; // Size of each chunk in bytes
+
+    @Column(name = "total_chunks")
+    private Integer totalChunks; // Total number of chunks
+
+    @Column(name = "is_chunked")
+    private Boolean isChunked; // Whether file was split into chunks
 }

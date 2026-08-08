@@ -1,1 +1,4 @@
+com\distributedstorage\replication\service\ReplicationService.class
+com\distributedstorage\replication\model\ReplicationTaskStatus.class
+com\distributedstorage\replication\model\ReplicationTask.class
 com\distributedstorage\replication\ReplicationServiceApplication.class
