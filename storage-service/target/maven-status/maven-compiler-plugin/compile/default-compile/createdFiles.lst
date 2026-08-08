@@ -1,0 +1,5 @@
+com\distributedstorage\storage\config\MinIOProperties.class
+com\distributedstorage\storage\StorageServiceApplication.class
+com\distributedstorage\storage\config\MinIOConfig.class
+com\distributedstorage\storage\controller\StorageController.class
+com\distributedstorage\storage\service\StorageService.class

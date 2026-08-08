@@ -1,0 +1,5 @@
+com\distributedstorage\metadata\controller\FileMetadataController.class
+com\distributedstorage\metadata\MetadataServiceApplication.class
+com\distributedstorage\metadata\model\FileMetadata.class
+com\distributedstorage\metadata\repository\FileMetadataRepository.class
+com\distributedstorage\metadata\service\FileMetadataService.class
